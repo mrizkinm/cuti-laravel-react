@@ -36,6 +36,9 @@ php artisan migrate
 # Jalankan server
 php artisan serve
 
+# untuk export/import csv
+php artisan queue:work
+
 npm install
 npm run dev
 ```
